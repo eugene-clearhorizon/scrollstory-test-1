@@ -1,0 +1,267 @@
+﻿[
+  {
+    "id": "chapter-01-context",
+    "kicker": "Chapter 1",
+    "title": "What is the plan and how was this review conducted?",
+    "visual": {
+      "default": {
+        "src": "./assets/images/ch01-context-full.png",
+        "alt": "Overview visual from chapter 1 context slide"
+      }
+    },
+    "stepVisuals": [
+      {
+        "src": "./assets/images/ch01-context-full.png",
+        "alt": "Context slide showing plan overview",
+        "icon": "./assets/diagrams/ch01-survey-icon.svg",
+        "iconAlt": "Survey icon"
+      },
+      {
+        "src": "./assets/images/ch01-context-full.png",
+        "alt": "Context slide showing data collection methods",
+        "icon": "./assets/diagrams/ch01-interviews-icon.svg",
+        "iconAlt": "Interviews and focus groups icon"
+      },
+      {
+        "src": "./assets/images/ch01-context-full.png",
+        "alt": "Context slide introducing plan priorities",
+        "icon": "./assets/diagrams/ch01-3-green-circle.svg",
+        "iconAlt": "Plan priorities marker"
+      }
+    ],
+    "stats": [
+      { "id": "survey", "value": "2,819", "label": "Community survey responses" },
+      { "id": "qual", "value": "14 + 4", "label": "Interviews and focus groups" },
+      { "id": "priorities", "value": "3", "label": "Plan priorities" }
+    ],
+    "steps": [
+      {
+        "id": "c1-step-1",
+        "title": "Plan foundation",
+        "body": "The Plan for Ageing Well 2020-2025 was designed to help older South Australians live well through three priorities: Home and Community, Meaningful Connections, and Navigating Change."
+      },
+      {
+        "id": "c1-step-2",
+        "title": "How evidence was gathered",
+        "body": "The review combined a large survey, interviews, focus groups with priority groups, organisational input, and policy/media analysis to understand what is working and what is not."
+      },
+      {
+        "id": "c1-step-3",
+        "title": "Why this chapter matters",
+        "body": "This chapter establishes confidence in the findings and sets up the three priority-area chapters that follow."
+      }
+    ]
+  },
+  {
+    "id": "chapter-02-home-community",
+    "kicker": "Chapter 2",
+    "title": "Home and Community",
+    "visual": {
+      "default": {
+        "src": "./assets/images/ch-02-home-community-full.png",
+        "alt": "Home and Community chapter slide"
+      }
+    },
+    "stepVisuals": [
+      {
+        "src": "./assets/images/Home-community-accompanying-image.png",
+        "alt": "Accompanying image for Home and Community chapter",
+        "icon": "./assets/diagrams/working-well-tick.svg",
+        "iconAlt": "What is working well icon"
+      },
+      {
+        "src": "./assets/images/ch-02-home-community-full.png",
+        "alt": "Home and Community slide with challenge statements",
+        "icon": "./assets/diagrams/challenges-exclaimation.svg",
+        "iconAlt": "Challenges icon"
+      },
+      {
+        "src": "./assets/images/ch-02-home-community-full.png",
+        "alt": "Home and Community chapter key takeaway",
+        "icon": "./assets/diagrams/key-takeaway-icon.svg",
+        "iconAlt": "Key takeaway icon"
+      }
+    ],
+    "stats": [
+      { "id": "like-location", "value": "9 in 10", "label": "Love where they live" },
+      { "id": "age-in-place", "value": "~9 in 10", "label": "Feel they can age in place" },
+      { "id": "renters", "value": "2 in 3", "label": "Private renters confident long-term" }
+    ],
+    "steps": [
+      {
+        "id": "c2-step-1",
+        "title": "What is working well",
+        "body": "Most older South Australians value their neighbourhoods and feel positive about remaining in their homes as they age."
+      },
+      {
+        "id": "c2-step-2",
+        "title": "Where pressure is building",
+        "body": "Renters, people with disability, and regional residents face greater constraints. Housing diversity has also reduced compared with ten years ago."
+      },
+      {
+        "id": "c2-step-3",
+        "title": "Key takeaway",
+        "body": "People want to stay in their communities, but affordable and adaptable housing options are limited and age-friendly planning needs stronger visibility."
+      }
+    ]
+  },
+  {
+    "id": "chapter-03-meaningful-connections",
+    "kicker": "Chapter 3",
+    "title": "Meaningful Connections",
+    "visual": {
+      "default": {
+        "src": "./assets/images/ch-03-connections-full.png",
+        "alt": "Meaningful Connections chapter slide"
+      }
+    },
+    "stepVisuals": [
+      {
+        "src": "./assets/images/meaningful-connections-accompanying-image.png",
+        "alt": "Accompanying image for Meaningful Connections",
+        "icon": "./assets/diagrams/working-well-tick.svg",
+        "iconAlt": "What is working well icon"
+      },
+      {
+        "src": "./assets/images/ch-03-connections-full.png",
+        "alt": "Meaningful Connections slide with challenge statements",
+        "icon": "./assets/diagrams/challenges-exclaimation.svg",
+        "iconAlt": "Challenges icon"
+      },
+      {
+        "src": "./assets/images/ch-03-connections-full.png",
+        "alt": "Meaningful Connections chapter key takeaway",
+        "icon": "./assets/diagrams/key-takeaway-icon.svg",
+        "iconAlt": "Key takeaway icon"
+      }
+    ],
+    "stats": [
+      { "id": "support", "value": "4 in 5", "label": "Have someone they can rely on" },
+      { "id": "connected", "value": "6 in 10", "label": "Feel connected to community" },
+      { "id": "regional-transport", "value": "1 in 3", "label": "Regional residents with suitable transport" }
+    ],
+    "steps": [
+      {
+        "id": "c3-step-1",
+        "title": "Strengths",
+        "body": "Many older people have strong support networks, and volunteering participation in South Australia remains high."
+      },
+      {
+        "id": "c3-step-2",
+        "title": "Challenges",
+        "body": "Social isolation remains significant for some groups, especially when transport barriers and ageism limit participation."
+      },
+      {
+        "id": "c3-step-3",
+        "title": "Key takeaway",
+        "body": "Connection is a core driver of ageing well outcomes, but transport access and age-inclusive attitudes are not yet consistent."
+      }
+    ]
+  },
+  {
+    "id": "chapter-04-navigating-change",
+    "kicker": "Chapter 4",
+    "title": "Navigating Change",
+    "visual": {
+      "default": {
+        "src": "./assets/images/ch-04-navigating-change-full.png",
+        "alt": "Navigating Change chapter slide"
+      }
+    },
+    "stepVisuals": [
+      {
+        "src": "./assets/images/Navigating-change-accompanying-image.png",
+        "alt": "Accompanying image for Navigating Change",
+        "icon": "./assets/diagrams/working-well-tick.svg",
+        "iconAlt": "What is working well icon"
+      },
+      {
+        "src": "./assets/images/ch-04-navigating-change-full.png",
+        "alt": "Navigating Change slide with challenge statements",
+        "icon": "./assets/diagrams/challenges-exclaimation.svg",
+        "iconAlt": "Challenges icon"
+      },
+      {
+        "src": "./assets/images/ch-04-navigating-change-full.png",
+        "alt": "Navigating Change chapter key takeaway",
+        "icon": "./assets/diagrams/key-takeaway-icon.svg",
+        "iconAlt": "Key takeaway icon"
+      }
+    ],
+    "stats": [
+      { "id": "services-fit", "value": "< 50%", "label": "Feel services focus on individual needs" },
+      { "id": "confidence", "value": "6 in 10", "label": "Confident handling major life changes" },
+      { "id": "barriers", "value": "2", "label": "Main barriers: digital and system complexity" }
+    ],
+    "steps": [
+      {
+        "id": "c4-step-1",
+        "title": "What is working",
+        "body": "Culturally tailored services improve safety and trust for Aboriginal and Torres Strait Islander communities, and community organisations help CALD groups navigate systems."
+      },
+      {
+        "id": "c4-step-2",
+        "title": "What is difficult",
+        "body": "Many older people report services are hard to navigate and insufficiently personalised, with digital access gaps compounding the problem."
+      },
+      {
+        "id": "c4-step-3",
+        "title": "Key takeaway",
+        "body": "Older people want support that aligns with their priorities, but current service complexity and digital barriers reduce access and confidence."
+      }
+    ]
+  },
+  {
+    "id": "chapter-05-next-steps",
+    "kicker": "Chapter 5",
+    "title": "Next Steps and Statewide Conversations",
+    "visual": {
+      "default": {
+        "src": "./assets/images/ch-05-next-steps-full.png",
+        "alt": "Next Steps chapter slide"
+      }
+    },
+    "stepVisuals": [
+      {
+        "src": "./assets/images/Next-steps-background-image.jpg",
+        "alt": "Background image for next steps",
+        "icon": "./assets/diagrams/ch05-have-your-say-icon.svg",
+        "iconAlt": "Have your say icon"
+      },
+      {
+        "src": "./assets/images/ch-05-next-steps-full.png",
+        "alt": "Next steps slide showing four themes",
+        "icon": "./assets/diagrams/key-takeaway-icon.svg",
+        "iconAlt": "Themes icon"
+      },
+      {
+        "src": "./assets/diagrams/ch05-qrcode.png",
+        "alt": "QR code for statewide conversations updates",
+        "icon": "./assets/diagrams/ch05-have-your-say-icon.svg",
+        "iconAlt": "Call to action icon"
+      }
+    ],
+    "stats": [
+      { "id": "themes", "value": "4", "label": "Themes for Statewide Conversations" },
+      { "id": "timespan", "value": "2026-2036", "label": "Next plan horizon" },
+      { "id": "cta", "value": "1", "label": "Public call to stay updated" }
+    ],
+    "steps": [
+      {
+        "id": "c5-step-1",
+        "title": "The transition",
+        "body": "The review findings now feed into Statewide Conversations to shape the next ageing well plan."
+      },
+      {
+        "id": "c5-step-2",
+        "title": "Four themes",
+        "body": "Wellbeing, Stronger Connections, Life Transitions, and Home and Community provide the structure for the next engagement phase."
+      },
+      {
+        "id": "c5-step-3",
+        "title": "Call to action",
+        "body": "The final chapter should include your engagement prompt and QR asset so audiences can follow and contribute."
+      }
+    ]
+  }
+]

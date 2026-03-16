@@ -1,0 +1,78 @@
+:root {
+  /* Priority 1: Home and Community */
+  --priority-home: #882e74;
+  --priority-home-light: #ece3ef;
+  --priority-home-rgb: 136, 46, 116;
+  --priority-home-accent: #6d3f82;
+  --priority-home-accent-strong: #7a4a91;
+  --priority-home-gradient-start: #8f5ca5;
+  --priority-home-gradient-end: #b17cc7;
+  --priority-home-scene-1-start: #f4edf6;
+  --priority-home-scene-1-end: #ede1f1;
+  --priority-home-scene-2-start: #f7f1f8;
+  --priority-home-scene-2-end: #f1e7f4;
+  --priority-home-scene-3-start: #efe4f3;
+  --priority-home-scene-3-end: #e8d9ee;
+  --priority-home-scene-4-start: #f2e8f5;
+  --priority-home-scene-4-end: #ebddf0;
+  --priority-home-scene-5-start: #eee0ec;
+  --priority-home-scene-5-end: #e3d0e0;
+
+  /* Priority 2: Meaningful Connections */
+  --priority-connections: #0093d0;
+  --priority-connections-light: #dfeef4;
+  --priority-connections-rgb: 0, 147, 208;
+  --priority-connections-accent: #117eaf;
+  --priority-connections-accent-strong: #0d6e99;
+  --priority-connections-gradient-start: #2da9dd;
+  --priority-connections-gradient-end: #7acceb;
+  --priority-connections-scene-1-start: #eef8fc;
+  --priority-connections-scene-1-end: #deeff6;
+  --priority-connections-scene-2-start: #f3fbfe;
+  --priority-connections-scene-2-end: #e6f4fa;
+  --priority-connections-scene-3-start: #edf7fb;
+  --priority-connections-scene-3-end: #def0f8;
+  --priority-connections-scene-4-start: #f2f9fc;
+  --priority-connections-scene-4-end: #e3f3f9;
+  --priority-connections-scene-5-start: #e4f2f7;
+  --priority-connections-scene-5-end: #d2e8f2;
+
+  /* Priority 3: Navigating Change */
+  --priority-change: #00b050;
+  --priority-change-light: #e4ece2;
+  --priority-change-rgb: 0, 176, 80;
+  --priority-change-accent: #0a9251;
+  --priority-change-accent-strong: #087544;
+  --priority-change-gradient-start: #29bf6f;
+  --priority-change-gradient-end: #7bd49f;
+  --priority-change-scene-1-start: #eef9f1;
+  --priority-change-scene-1-end: #e0f0e5;
+  --priority-change-scene-2-start: #f4fbf6;
+  --priority-change-scene-2-end: #e6f5ea;
+  --priority-change-scene-3-start: #edf8f0;
+  --priority-change-scene-3-end: #dff0e5;
+  --priority-change-scene-4-start: #f2faf4;
+  --priority-change-scene-4-end: #e4f3e8;
+  --priority-change-scene-5-start: #e4f1e6;
+  --priority-change-scene-5-end: #d2e8d8;
+
+  /* Chapter 5: Next Steps */
+  --priority-next: #1a5b74;
+  --priority-next-light: #edf3ee;
+  --priority-next-rgb: 26, 91, 116;
+  --priority-next-accent: #2f7c59;
+  --priority-next-accent-soft: #dcead8;
+  --priority-next-highlight: #f0ba45;
+  --priority-next-scene-1-start: #edf5ef;
+  --priority-next-scene-1-end: #e2eee6;
+  --priority-next-scene-2-start: #f5f7f0;
+  --priority-next-scene-2-end: #ebf1e8;
+  --priority-next-scene-3-start: #f3f8f2;
+  --priority-next-scene-3-end: #e6f0ea;
+  --priority-next-scene-4-start: #eff6f1;
+  --priority-next-scene-4-end: #e2eee9;
+
+  /* Shared accent: Orange */
+  --accent-orange: #d0570a;
+  --accent-orange-light: #f3dfd0;
+}
