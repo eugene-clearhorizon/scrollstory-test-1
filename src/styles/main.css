@@ -1897,14 +1897,11 @@ h2 {
 }
 
 .enabler-panel {
-  background: #e8e0d6;
-  border: 1px solid #d6c8b7;
-  border-radius: 10px;
-  padding: 0.8rem 0.95rem 0.95rem;
+  padding: 0.2rem 0;
 }
 
 .enabler-title {
-  margin: 0 0 0.45rem;
+  margin: 0 0 1rem;
   font-family: "Source Sans 3", "Segoe UI", sans-serif;
   font-size: clamp(1.12rem, 2.2vw, 1.36rem);
   font-weight: 400;
@@ -1915,21 +1912,49 @@ h2 {
   font-weight: 700;
 }
 
-.enabler-list {
+.enabler-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.enabler-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.85rem 1.1rem;
+  background: rgba(208, 87, 10, 0.07);
+  border: 1px solid rgba(208, 87, 10, 0.18);
+  border-radius: 14px;
+}
+
+.enabler-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--accent-orange);
+  color: #ffffff;
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.enabler-card-text {
   margin: 0;
-  padding-left: 1rem;
+  font-size: clamp(0.95rem, 1.9vw, 1.05rem);
+  line-height: 1.45;
+  color: var(--ink);
 }
 
 .enabler-item {
-  margin: 0.35rem 0;
-  line-height: 1.4;
   opacity: 0;
   transform: translateY(14px);
   transition: opacity 340ms ease, transform 340ms ease;
-}
-
-.enabler-item::marker {
-  color: #d77a1b;
 }
 
 .enabler-item.is-revealed {
@@ -2291,10 +2316,6 @@ h2 {
 
   .priority-text {
     font-size: 0.96rem;
-  }
-
-  .enabler-panel {
-    padding: 0.65rem 0.75rem 0.8rem;
   }
 
   .enabler-title {

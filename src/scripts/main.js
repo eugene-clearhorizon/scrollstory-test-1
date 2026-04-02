@@ -193,9 +193,11 @@ function runMethodStageAnimations(stage) {
   const activeCard = document.querySelector(`.method-card[data-method-index="${stage - 1}"]`);
   if (!activeCard) return;
 
-  activeCard.querySelectorAll(".count[data-target]").forEach((countNode) => {
-    animateCount(countNode);
-  });
+  setTimeout(() => {
+    activeCard.querySelectorAll(".count[data-target]").forEach((countNode) => {
+      animateCount(countNode);
+    });
+  }, 300);
 }
 
 function setMethodsStage(stage) {
@@ -242,17 +244,29 @@ function setNextStepsThemesStage(stage) {
 }
 
 if (scenes.length) {
+  const sceneVisibility = new Map();
+
   const sceneObserver = new IntersectionObserver(
     (entries) => {
-      const visible = entries
-        .filter((entry) => entry.isIntersecting)
-        .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+      entries.forEach((entry) => {
+        sceneVisibility.set(
+          entry.target,
+          entry.isIntersecting ? entry.intersectionRatio : 0
+        );
+      });
 
-      if (visible.length) {
-        const activeScene = visible[0].target;
-        setActiveScene(activeScene);
+      let bestScene = null;
+      let bestRatio = 0;
+      sceneVisibility.forEach((ratio, scene) => {
+        if (ratio > bestRatio) {
+          bestRatio = ratio;
+          bestScene = scene;
+        }
+      });
 
-        if (activeScene === planScene) {
+      if (bestScene) {
+        setActiveScene(bestScene);
+        if (bestScene === planScene) {
           revealUpTo(0);
         }
       }
@@ -263,7 +277,10 @@ if (scenes.length) {
     }
   );
 
-  scenes.forEach((scene) => sceneObserver.observe(scene));
+  scenes.forEach((scene) => {
+    sceneVisibility.set(scene, 0);
+    sceneObserver.observe(scene);
+  });
   setActiveScene(scenes[0]);
 }
 
